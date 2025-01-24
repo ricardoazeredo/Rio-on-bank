@@ -1,5 +1,9 @@
-import { Button, Text, View } from 'react-native';
-import { styles } from './style';
+import { 
+  Container, 
+  Title, 
+  Texto, 
+  Btn
+} from './style';
 import { useNavigation } from '@react-navigation/native';
 
 export function Home() {
@@ -8,13 +12,13 @@ export function Home() {
     navigation.navigate('conta');
   }
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>RioOn Bank</Text>
-      <Text style={styles.title}>Home</Text>
-      <Button 
+    <Container>
+      <Title>RioOn Bank</Title>
+      <Texto>Home</Texto>
+      <Btn
         title="Ir para Conta"
         onPress={handleConta}
       />
-    </View>
+    </Container>
   );
 }

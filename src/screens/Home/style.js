@@ -1,20 +1,26 @@
-import { StyleSheet } from 'react-native';
+import styled from 'styled-components';
 
-export const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      alignItems: 'center',
-      justifyContent: 'center',
-      backgroundColor: '#C405AD'
-    },
-    title: {
-        color: '#fff',
-        fontSize: 32,
-        fontWeight: 'bold'
-    },
-    text: {
-        color: '#fff',
-        fontSize: 22,
-        fontWeight: '500'
-    }
-  });
+export const Container = styled.View`
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  background-color: #C405AD;
+`;
+
+export const Title = styled.Text`
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+`;
+export const Texto = styled.Text`
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+`;
+export const Btn = styled.Button`
+  width: 100%;
+  background-color: #f1f1f1;
+  color: #C405AD;
+`;
+
+

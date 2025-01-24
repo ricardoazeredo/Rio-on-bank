@@ -11,9 +11,9 @@ export function Conta() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>RioOn Bank</Text>
-      <Text style={styles.title}>Conta</Text>
+      <Text style={styles.text}>Conta</Text>
       <Button 
-        title="Ir para Conta"
+        title="Voltar"
         onPress={handleBack}
       />
     </View>

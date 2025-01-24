@@ -10,10 +10,6 @@ export function AppRoutes(){
     return (
         <Navigator screenOptions={{ headerShown: false}}>
             <Screen 
-                name='splash'
-                component={Splash}
-            />
-            <Screen 
                 name='home'
                 component={Home}
             />
